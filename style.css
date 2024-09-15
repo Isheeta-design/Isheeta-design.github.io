@@ -12,7 +12,7 @@ body {
     width: 1%;
     border-radius: 100%;
     text-shadow:
-    2px 2px 6px rgb(167, 13, 146),
+    2px 2px 6px rgb(80, 0, 64),
     -1px 1px 0px black,
     1px -1px 0px black,
     -1px -1px 0px black;
@@ -24,7 +24,7 @@ ul {
 
 body > header {
     text-align:end;
-    background-color: #80004f;
+    background-color: #008080;
     color: #ecece4 ;
     display: flex;
     height: 14vh;
