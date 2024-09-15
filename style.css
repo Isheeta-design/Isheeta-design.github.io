@@ -1,19 +1,18 @@
 body {
-    background-color: beige;
+    background-color: #fdf7f3;
     font-family: Helvetica, 'Times New Roman', sans-serif;
     margin: 0px;
-    font-size: 1vw;
+    font-size: 1.25vw;
 }
 
 #logo {
     margin: 0px;
     padding: 8px;
     font-family: "Fredoka One", sans-serif;
-    box-shadow: 2px 4px 7px 2px darkorange;
-    width: 11%;
-    border-radius: 68%;
+    width: 1%;
+    border-radius: 100%;
     text-shadow:
-    1px 1px 0px black,
+    2px 2px 6px rgb(0, 80, 80),
     -1px 1px 0px black,
     1px -1px 0px black,
     -1px -1px 0px black;
@@ -24,12 +23,13 @@ ul {
 }
 
 body > header {
-    background-color: orange;
+    text-align:end;
+    background-color: #008080;
     color: #ecece4 ;
     display: flex;
-    height: 8vh;
+    height: 14vh;
     align-items: center;
-    justify-content: space-around;
+    justify-content:space-around;
 }
 
 #nav-ul {
@@ -43,7 +43,8 @@ body > header {
 
 body > header > nav > ul {
     list-style: none;
-    text-decoration: none;
+    text-decoration:underline;
+    text-decoration-style:inherit;
 }
 
 .navbutton {
@@ -75,12 +76,18 @@ h2 {
     text-align: center;
 }
 body > footer {
-    background-color: aquamarine;
+    margin-top: -2%;
+    text-align:end;
+    height: 10vw;
+    background-color: #008080;
     display: flex;
 }
 
 img {
-    border-radius: 50%;
+    margin-top: -15vw;
+    position: relative;
+    right: -50vw;
+    border-radius: 20%;
 }
 #footer-ul {
 
@@ -94,3 +101,31 @@ img {
     text-decoration: none;
     color: black;
 }
+aside {
+    position: relative;
+    right: -4vw;
+
+    text-align: center;
+    margin-top: 40vw;
+        border: 3px solid #008080;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
+        height: 55vh;
+        width: 13vw;
+       margin-inline-end: -5%;    
+}
+.about-me-aside {
+    position: relative;
+    right: 6vw;
+    display: flex;
+    margin-top: 90vw ;
+    margin-inline-end: 10%;
+    border: 3px solid #008080; /* Different color for this aside */
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    height: 70vh;
+    width: 13vw;
+  }
